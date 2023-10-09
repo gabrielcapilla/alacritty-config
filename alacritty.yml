@@ -1,5 +1,6 @@
 # Importar tema y configuración de tipografías.
 import:
+    # - ~/.config/alacritty/themes/gruvboxlight.yml
     - ~/.config/alacritty/themes/gruvboxdark.yml
     - ~/.config/alacritty/fonts.yml
 

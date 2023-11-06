@@ -7,14 +7,14 @@ import:
 window:
   energy: Performance                   # Perfil de rendimiento
   dimensions:                           # Especifica las dimensiones por columnas y filas.
-    columns: 136
-    lines: 32
+    columns: 162
+    lines: 42
   padding:                              # Espaciado del contenido de la ventana
     x: 0
     y: 0
   startup_mode: Windowed                # Inicio en ventana
   decorations: Full                     # Activa (Full) o Desactiva (None) las decoraciones de las ventanas
-  opacity: 0.8                          # Opacidad de la ventana
+  opacity: 1                            # Opacidad de la ventana
 
 # Comportamiento del ratón
 scrolling:

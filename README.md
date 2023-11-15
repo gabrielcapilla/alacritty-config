@@ -1,23 +1,37 @@
 Una configuración rápida de Alacritty. 
 
-![preview](https://raw.githubusercontent.com/gabrielcapilla/alacritty-config/main/alacrity-preview.png)
+![preview](https://raw.githubusercontent.com/gabrielcapilla/alacritty-config/main/preview.png)
 
 # Instalación
-Ejecuta el script `aplicar.sh`.
-
-## Instalación manual
-Mueve los archivos a 
 ```
-$HOME/.config/alacritty/
+git clone https://github.com/gabrielcapilla/alacritty-config.git
+```
+
+```
+cd alacritty-config
+```
+
+```
+chmod +x aplicar.sh
+```
+
+```
+./aplicar.sh
 ```
 
 # Resumen
-Una configuración rápida de Alacritty. La configuración consta de tres archivos de configuración individuales: `alacritty.yml`, `fonts.yml` y una ultima que hace referencia al tema. Esto le permitirá poder cambiar fácilmente la configuración.
+El tema usado por defecto es *darkly*, un tema **personalizado** basado en el esquema de color de [Dracula](https://draculatheme.com/). Puede descargar más temas en [Alacritty themes](https://github.com/rajasegar/alacritty-themes/tree/master/themes). En el archivo `fonts.yml` encontrará la configuración relacionada con la tipografía y el tamaño del texto.
 
-El tema usado por defecto es *gruvdracula*, un tema personalizado basado en el esquema de color de Dracula. En la carpeta *themes* es donde se guardan los archivos `.yml` de los distintos temas. Puede descargar más temas en [Alacritty themes](https://github.com/rajasegar/alacritty-themes/tree/master/themes). 
+El tema *darkly* está pensado para usarse con [lightly](https://github.com/boehs/lightly) junto con el esquema de color [Darkly](https://store.kde.org/p/1651968). En conjunto mantiene una estilo tránslucido unificando el cuerpo de la terminal con la decoración de la ventana. La tipografia es *Fragment Mono*, una versión monoespaciada de Helvetica.
 
-En el archivo `fonts.yml` encontrará la configuración relacionada con la tipografía y el tamaño del texto. Para esta configuración necesita usar la tipografía `JetBrains Mono`. El tamaño del texto está adaptado para monitores con una resolución 4K UHD.
+![fragment-mono](https://raw.githubusercontent.com/weiweihuanghuang/fragment-mono/main/documentation/FragmentMonoCharSet.png)
 
-# Add-ons
-- [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
+# Registro de cambios
+15 Noviembre 2023. Re-work.
+* Script de instalación mejorado
+* Nuevo tema basado en *Dracula* y *Darkly*
+* Instalación automatica de la tipografía *Fragment mono*
+
+# Consultar
+- [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono)
 - [Alacritty themes](https://github.com/rajasegar/alacritty-themes/tree/master/themes)

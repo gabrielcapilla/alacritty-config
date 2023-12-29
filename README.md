@@ -27,10 +27,15 @@ El tema *darkly* está pensado para usarse con [lightly](https://github.com/boeh
 ![fragment-mono](https://raw.githubusercontent.com/weiweihuanghuang/fragment-mono/main/documentation/FragmentMonoCharSet.png)
 
 # Registro de cambios
-15 Noviembre 2023. Re-work.
+15 Noviembre 2023.
 * Script de instalación mejorado
 * Nuevo tema basado en *Dracula* y *Darkly*
 * Instalación automatica de la tipografía *Fragment mono*
+
+29 Diciembre 2023.
+* Configuración actualizada a TOML
+* Tema *Darkly* actualizado a TOML
+* Script de instalación actualizado
 
 # Consultar
 - [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono)

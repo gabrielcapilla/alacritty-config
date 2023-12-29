@@ -7,6 +7,6 @@ rm -rf fragment-mono
 
 # Instalar configuración Alacritty
 mkdir -p ~/.config/alacritty/; cd alacritty
-i="./themes *.yml" o=~/.config/alacritty/; cp -r $i "$o"
+i="./themes *.toml" o=~/.config/alacritty/; cp -r $i "$o"
 
 
